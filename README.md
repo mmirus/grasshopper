@@ -1,3 +1,13 @@
+# Grasshopper
+
+Grasshopper is a customized version of the Sage starter theme.
+
+## Customizations:
+* Include Bulma and Font Awesome out of the box
+* Change location of the Blade template cache [for WP Engine compatibility](https://discourse.roots.io/t/sage-9-on-wpengine/9090/24)
+
+---
+
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
@@ -122,4 +132,3 @@ Keep track of development and community news.
 * Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 * Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
 * Listen to the [Roots Radio podcast](https://roots.io/podcast/)
-# grasshopper
