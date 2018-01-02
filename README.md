@@ -2,9 +2,10 @@
 
 Grasshopper is a customized version of the Sage starter theme.
 
-## Customizations:
+## Customizations
 * Include Bulma and Font Awesome out of the box
 * Change location of the Blade template cache [for WP Engine compatibility](https://discourse.roots.io/t/sage-9-on-wpengine/9090/24)
+* Add walker for Bulma navbar component based on [Bulmapress](https://github.com/teamscops/bulmapress) and [this Gist](https://gist.github.com/Log1x/358dd055554363488f6220c89a4ec358)
 
 ---
 
