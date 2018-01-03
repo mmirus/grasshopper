@@ -9,7 +9,13 @@ It is current with Sage 9 development as of [this commit](https://github.com/roo
 * Change location of the Blade template cache [for WP Engine compatibility](https://discourse.roots.io/t/sage-9-on-wpengine/9090/24)
 * Add walker for Bulma navbar component based on [Bulmapress](https://github.com/teamscops/bulmapress) and [this Gist](https://gist.github.com/Log1x/358dd055554363488f6220c89a4ec358)
 
-## TODO: Instructions for installation and setup
+## Instructions for installation and setup
+1. Clone this repository.
+2. Run ```composer install```
+3. Run ```./vendor/bin/sage meta``` (to update theme metadata) and ```./vendor/bin/sage config``` (to update paths)
+4. Run ```yarn && yarn build```
+
+At this point you should have a functioning theme and development environment with all required dependencies.
 
 ---
 
