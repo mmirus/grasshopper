@@ -1,3 +1,18 @@
+# Grasshopper
+
+Grasshopper is a customized version of the Sage starter theme.
+
+It is current with Sage 9 development as of [this commit](https://github.com/roots/sage/commit/42db9f9c991202fda1e4939b556b85b979dab6cb).
+
+## Customizations
+* Include Bulma out of the box
+* Change location of the Blade template cache [for WP Engine compatibility](https://discourse.roots.io/t/sage-9-on-wpengine/9090/24)
+* Add walker for Bulma navbar component based on [Bulmapress](https://github.com/teamscops/bulmapress) and [this Gist](https://gist.github.com/Log1x/358dd055554363488f6220c89a4ec358)
+
+## TODO: Instructions for installation and setup
+
+---
+
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
