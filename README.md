@@ -1,14 +1,3 @@
-# Grasshopper
-
-Grasshopper is a customized version of the Sage starter theme.
-
-## Customizations
-* Include Bulma and Font Awesome out of the box
-* Change location of the Blade template cache [for WP Engine compatibility](https://discourse.roots.io/t/sage-9-on-wpengine/9090/24)
-* Add walker for Bulma navbar component based on [Bulmapress](https://github.com/teamscops/bulmapress) and [this Gist](https://gist.github.com/Log1x/358dd055554363488f6220c89a4ec358)
-
----
-
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
@@ -28,6 +17,7 @@ Sage is a WordPress starter theme with a modern development workflow.
 * [Controller](https://github.com/soberwp/controller) for passing data to Blade templates
 * CSS framework options:
   * [Bootstrap 4](http://getbootstrap.com/)
+  * [Bulma](http://bulma.io/)
   * [Foundation](http://foundation.zurb.com/)
   * [Tachyons](http://tachyons.io/)
   * None (blank slate)
@@ -57,7 +47,7 @@ $ composer create-project roots/sage your-theme-name dev-master
 During theme installation you will have the options to:
 
 * Update theme headers (theme name, description, author, etc.)
-* Select a CSS framework (Bootstrap, Foundation, Tachyons, none)
+* Select a CSS framework (Bootstrap, Bulma, Foundation, Tachyons, none)
 * Add Font Awesome
 * Configure Browsersync (path to theme, local development URL)
 
@@ -66,7 +56,7 @@ During theme installation you will have the options to:
 ```shell
 themes/your-theme-name/   # → Root of your Sage based theme
 ├── app/                  # → Theme PHP
-│   ├── lib/Sage/         # → Blade implementation, asset manifest
+│   ├── controllers/      # → Controller files
 │   ├── admin.php         # → Theme customizer setup
 │   ├── filters.php       # → Theme filters
 │   ├── helpers.php       # → Helper functions
@@ -84,7 +74,6 @@ themes/your-theme-name/   # → Root of your Sage based theme
 │   │   ├── images/       # → Theme images
 │   │   ├── scripts/      # → Theme JS
 │   │   └── styles/       # → Theme stylesheets
-│   ├── controllers/      # → Controller files
 │   ├── functions.php     # → Composer autoloader, theme includes
 │   ├── index.php         # → Never manually edit
 │   ├── screenshot.png    # → Theme screenshot for WP admin

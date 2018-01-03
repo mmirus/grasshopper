@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'compiled' => '/tmp/sage-cache',
+    'compiled' => wp_upload_dir()['basedir'].'/cache',
 
 
     /*
